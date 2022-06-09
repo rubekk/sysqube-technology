@@ -1,0 +1,157 @@
+/* header style */
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 4rem;
+	background: #fff;
+}
+
+.left a{
+	display: flex;
+	align-items: center;
+	color: #003976;
+}
+
+.left img{
+	width: 60px;
+	margin-right: 1rem;
+}
+
+.left h2{
+	font-size: 20px;
+}
+
+.right{
+	font-size: 20px;
+}
+
+.right a{
+	margin-left: .1rem;
+	color: var(--primary-blue);
+}
+
+/* container style */
+.container{
+	width: 600px;
+	padding: 2rem 6rem;
+	margin: 4rem auto 10rem;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.container h1{
+	margin: 3rem 0 5rem;
+	text-align: center;
+	font-size: 3.5rem;
+	color: var(--primary-blue);
+}
+
+input{
+	width: 100%;
+	height: 55px;
+	padding: 0 1.5rem;
+	border: 1px solid var(--primary-blue);
+	border-radius: 7px;
+	font-size: 16px;
+}
+
+.name-inp{
+	margin-bottom: 1.75rem;
+}
+
+.password-inp-sec{
+	display: flex;
+}
+
+.password-inp{
+	margin-bottom: 1.5rem;
+	border-right: none;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.icon{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	padding: 0 1rem 0 .5rem;
+	border: 1px solid var(--primary-blue);
+	border-radius: 7px;
+	border-left: none;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.icon i{
+	cursor: pointer;
+}
+
+.forgot-txt{
+	margin-right: .5rem;
+	text-align: right;
+	font-size: .9rem;
+	color: #5399E4;
+}
+
+.btn-center{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.signin-btn{
+	margin: 2.5rem auto 2rem;
+	padding: 1rem 1.25rem;
+	background: var(--secondary-blue);
+	border: none;
+	color: #fff;
+	font-size: 1.25rem;
+	transition: .3s all ease;
+}
+
+.signin-btn:hover{
+	background: #fff;
+	color: var(--secondary-blue);
+	border: 1px solid var(--secondary-blue);
+}
+
+.line-around{
+	display: flex;
+	align-items: center;
+}
+
+.line{
+	width: 30%;
+	height: 1px;
+	background: var(--primary-blue);
+}
+
+.line-around p{
+	padding: 1rem;
+	color: var(--primary-blue);
+}
+
+.social-btns{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 1.5rem 0 4rem;
+}
+
+.social-btns button{
+	display: flex;
+	align-items: center;
+	padding: .5rem 1rem;
+	background: #fff;
+	border: 1px solid var(--secondary-blue);
+}
+
+.google-btn img, .facebook-btn img{
+	width: 30px;
+}
+
+.google-btn span, .facebook-btn span{
+	font-size: 1.2rem;
+	margin-left: .5rem;
+}
